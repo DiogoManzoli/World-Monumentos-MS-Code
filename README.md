@@ -28,7 +28,7 @@
 
 
 ## OBSERVAÇÕES
--Site desenvolvido do zero 
+- Site desenvolvido do zero 
 -As imagens possuem licença para comercializar (peguei em sites que possuem imagens de graça)
 - utilizei um onclick no lugar da tag "a" na página 'home' porque acabei não redimensionando a imagem correta ai na hora de acrescentar a tag "a" dava problema, compreendo que seria melhor a utilização da tag a ( depois da sua correção vou fazer algumas modificações para deixar o código mais limpo e com qualidade)
 - Eu tinha baixado todo o Fontawesome (sei que assim é a forma mais eficiênte de se utilizar), no entanto não dá para colocar a pasta no github(muito grande) então coloquei um cdn no lugar.
