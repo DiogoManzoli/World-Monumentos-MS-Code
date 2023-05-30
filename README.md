@@ -8,7 +8,7 @@
 
 
 ## PREVIEW
-![image](https://github.com/DiogoManzoli/World-Monumentos/assets/85167436/e78b78df-424c-4b23-a3cc-b10c8e962f28)
+![image](https://github.com/DiogoManzoli/World-Monumentos/assets/85167436/c79326f3-0f48-4a5e-a18b-c13a41ec7251)
 
 
 
