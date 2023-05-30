@@ -11,15 +11,12 @@
 ![image](https://github.com/DiogoManzoli/World-Monumentos/assets/85167436/c79326f3-0f48-4a5e-a18b-c13a41ec7251)
 
 
-
-
 ## TECNOLOGIAS UTILIZADAS 
 
 - Booststrap 5.3 (versão atual)
 - Fontawesome (Icons)
 - HTML
 - CSS
-
 
 
 ## APRENDIZADO
