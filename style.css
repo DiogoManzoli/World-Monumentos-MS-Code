@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262626;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-font-smoothing: antialiased;
+    font-smooth: always;
+}
+
+
+/*NAV-BAR */
+.nav-custom {
+    background-color: #262626;
+}
+
+.ul-custom {
+    gap: 40px;
+    border-bottom: 1px solid rgba(184, 182, 182, 0.616);
+}
+
+.a-custom {
+    font-weight: 500;
+    color: #EFE9F4;
+}
+
+.a-custom:hover {
+    color: #3B5EFF;
+    text-decoration: none;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 47px;
+    height: 47px;
+    border: 4px solid #2f53f1;
+    border-radius: 50%;
+
+
+    color: #2f53f1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#logo:hover {
+    border: 4px solid #EFE9F4;
+    color: #EFE9F4;
+}
+
+
+/*COROUSEL*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 3vw;
+    height: 5vh;
+}
+
+
+/*CARDS*/
+
+
+.card-custom{
+    transition: all 0.1s ease-in-out;
+}
+
+
+.card-custom:hover {
+    outline: 4px solid #151515;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+/*CONTEÚDO*/
+
+.mt-extra {
+    margin-top: 100px;
+}
+
+.text-custom {
+    color: white;
+    background-color: #1f1d1d;
+}
+
+.text-custom h1 {
+    background-color: #1f1d1d;
+    font-size: 40px;
+    margin-left: 0.5vw;
+    margin-top: 3vw;
+}
+
+.text-custom p {
+    background-color: #1f1d1d;
+    font-size: 14px;
+    margin-left: 0.5vw;
+     margin-bottom: 3vw;
+}
+
+.h2-custom{
+    font-size: 35px;
+}
+
+.p-custom {
+    color: white;
+}
+
+.content-custom {
+    background-color: #1f1d1d;
+
+}
+
+.content-two-custom {
+    gap: 3Vw;
+
+}
+
+.img-end-custom {
+    margin-bottom: 5vw;
+}
+
+
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-bottom: 20vh;
+}
+
+.contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contact form input {
+    outline: none;
+    width: 350px;
+    padding: 8px;
+    border: 1px solid rgb(76, 74, 74);
+    color: black;
+    background-color: #202020;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.contact form input:last-of-type {
+    padding-bottom: 200px;
+}
+
+.contact form input:focus {
+    border: 1px solid #3B5EFF;
+}
+
+.contact form input::placeholder {
+    padding: 3px;
+    color: gray;
+
+}
+
+.contact button {
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: #afa9a9;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #3B5EFF;
+    color: #EFE9F4;
+}
+
+
+/* COMMENT */
+
+.comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.comment form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.comment form label {
+    color: #EFE9F4;
+    font-size: 15pd;
+    margin-left: 10px;
+    align-self: start;
+}
+
+.comment form textarea {
+    outline: none;
+    width: 600px;
+    padding: 8px;
+    border: 1px solid rgb(76, 74, 74);
+    color: black;
+    background-color: #202020;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    resize: none;
+}
+
+.comment form textarea::placeholder {
+    color: gray;
+}
+
+.comment form button {
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(79, 220, 47);
+    padding: 8px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+}
+
+.comment form button:hover {
+    background-color: rgb(47, 186, 16);
+    color: #EFE9F4;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: #151515;
+    height: 220px;
+}
+
+footer div:nth-child(2) {
+    color: white;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rede {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rede:hover {
+
+    text-decoration: none;
+    background-color: #3B5EFF;
+
+}
+
+i {
+    color: black;
+}
+
+.rede:hover i {
+    color: white;
+    text-decoration: none;
+    background-color: #3B5EFF;
+}
+
+/*RESPONSIVIDADE */
+
+section {
+    margin-top: 200px;
+}
+
+
+
+@media (max-width:900px) {
+
+    .h2-custom{
+        font-size: 25px;
+    }
+
+    .text-custom p{
+        font-size: 11px;
+    }
+}
+@media (max-width:600px) {
+
+    section{
+        margin-top: 80px;
+    }
+
+    footer div:nth-child(2){
+        font-size: 12px;
+    }
+
+    .comment form textarea{
+        width: 450px;
+    }
+
+    .p-custom{
+        font-size: 13px;
+    }
+
+    .text-custom h1{
+        font-size: 25px;
+    }
+
+    .h2-custom{
+        font-size: 18px;
+    }
+    .text-custom p{
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .comment form textarea{
+        width: 300px;
+    }
+
+    .comment form label{
+        font-size: 12px;
+    }
+
+    .text-custom h1{
+        font-size: 20px;
+    }
+
+    .h2-custom{
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width:390px) {
+    .contact form input {
+        width: 250px;
+
+    }
+
+    .contact form input:last-of-type {
+        padding-bottom: 100px;
+
+    }
+
+    section{
+        margin-top: 50px;
+    }
+    
+    footer div:nth-child(2){
+        font-size: 9px;
+    }
+
+    .comment form textarea{
+        width: 280px;
+    }
+
+    .text-custom h1{
+        font-size: 18px;
+    }
+    .h2-custom{
+        font-size: 14px;
+    }
+
+}
